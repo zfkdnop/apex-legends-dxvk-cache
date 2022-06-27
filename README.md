@@ -20,7 +20,7 @@ The standard caveats about downloading files from strangers on the internet appl
 The default location is *~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache*. 
 If shader pre-caching is disabled, then the file will go in the game directory.
 
-**Note:** My directory is located at /home/user/.steam/debian-installation/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache (with shader pre-caching enabled).... /home/tyler/.steam/debian-installation/steamapps/common/Apex\ Legends/r5apex.dxvk-cache (with shader pre-caching disabled)
+**Note:** My directory is located at /home/user/.steam/debian-installation/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache (with shader pre-caching enabled).... /home/user/.steam/debian-installation/steamapps/common/Apex\ Legends/r5apex.dxvk-cache (with shader pre-caching disabled)
 
 
 The current cache file has 42320 entries and more are still being occasionally added. However, people using it report no stutter, even though there is likely to be a small number of missing entries.
