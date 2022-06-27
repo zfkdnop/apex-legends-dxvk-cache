@@ -1,7 +1,7 @@
 # apex-legends-dxvk-cache
-A compilation of pre-compiled DXKV shaders for use with Apex Legends on Linux via Steam/Proton
+A compilation of DXVK states pre-cached, for use with Apex Legends on Linux via Steam/Proton. Helps to improve and promote a smooth gaming experience.
 
-The following text is copied from https://www.reddit.com/r/linux_gaming/comments/t5xrho/dxvk_state_cache_for_fixing_stutter_in_apex/
+The following text is a slightly modified copy from https://www.reddit.com/r/linux_gaming/comments/t5xrho/dxvk_state_cache_for_fixing_stutter_in_apex/
 
 # DXVK state cache for fixing stutter in Apex Legends
 
@@ -16,10 +16,12 @@ Overwatch has a similar problem, but the lutris project solved it by distributin
 
 The cache is now zstd compressed due to discord's 8MB file size limit being reached. You can use Ark to extract it. Let me know if you have problems decompressing it. I might find alternative hosting if the compression poses a problem.
 
-The standard caveats about downloading files from strangers on the internet apply. If you have shader pre-caching enabled, the file goes in */path/to/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache*.
-The default location is *~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache*.
+The standard caveats about downloading files from strangers on the internet apply. If you have shader pre-caching enabled, the file goes in */path/to/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache*. 
+The default location is *~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache*. 
 If shader pre-caching is disabled, then the file will go in the game directory.
-**Note:** My directory is located at /home/user/.steam/debian-installation/steamapps/shadercache/1172470/DXVK_state_cache
+
+**Note:** My directory is located at /home/user/.steam/debian-installation/steamapps/shadercache/1172470/DXVK_state_cache/r5apex.dxvk-cache (with shader pre-caching enabled).... /home/tyler/.steam/debian-installation/steamapps/common/Apex\ Legends/r5apex.dxvk-cache (with shader pre-caching disabled)
+
 
 The current cache file has 42320 entries and more are still being occasionally added. However, people using it report no stutter, even though there is likely to be a small number of missing entries.
 
