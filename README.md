@@ -1,3 +1,18 @@
+# NOTICE
+The author has obsoleted this project
+```
+I now recommend that people just switch to Proton Experimental and the 
+Nvidia Vulkan Beta driver version 515.49.10. This will use the new 
+graphics pipeline library support, which eliminates stutter and the need
+ for sharing cache files. Note that driver version 515.65 does NOT
+ work because it is not the vulkan beta driver branch. People with AMD 
+or Intel graphics will need to wait until Mesa adds support for graphics
+ pipeline libraries to have the same experience.
+```
+
+I personally use [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom) and it works great.
+
+
 # apex-legends-dxvk-cache
 A compilation of DXVK states pre-cached, for use with Apex Legends on Linux via Steam/Proton. Helps to improve and promote a smooth gaming experience.
 
